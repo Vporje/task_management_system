@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.homeContainer {
+  background-image: url("../../assets/landingPage1.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.home{
+  padding: 20px;
+  background-color: #fcfaeec2;
+  border-radius: 5px;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #2A2E37; 
+  font-style: italic;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.features h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-buttons a {
+  text-decoration: none;
+}
+
+.cta-buttons button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #17BD17; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-buttons button:hover {
+  background-color: #009800; 
+}

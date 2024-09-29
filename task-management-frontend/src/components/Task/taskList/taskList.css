@@ -1,0 +1,61 @@
+.taskListContainer{
+  padding: 20px;
+}
+
+.top{
+  margin: 10px 0;
+  padding: 5px;
+}
+
+
+.userName{
+  color:#A04747;
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.tlTitle{
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+  color: #343131;
+}
+
+.Btns{
+  display: flex;  
+  justify-content: space-between;
+  position: relative;
+}
+
+.createTaskBtn, .logoutBtn{
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 0;
+  outline: 0;
+}
+.logoutBtn{
+background-color: #FF6600;
+position: absolute;
+right: 0;
+bottom: 75px;
+}
+
+.createTaskBtn{
+  background-color: #6EC207;
+}
+
+.createTaskBtn:hover{
+  background-color: #4f860a
+}
+
+.logoutBtn:hover{
+  background-color: #ad4805;
+}

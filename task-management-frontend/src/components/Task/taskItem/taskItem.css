@@ -1,0 +1,66 @@
+.taskItemContainer{
+  border: 1px solid rgba(165, 42, 42, 0.356);
+  padding: 5px;
+  margin: 10px;
+  background-color: #fff5cd3f;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tIElement{
+  margin: 10px;
+}
+
+.taskItemBtns{
+ display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80px;
+  margin: 10px;
+}
+
+.editBtn, .deleteBtn{
+  padding: 8px 10px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 0;
+  outline: 0;
+}
+
+.editBtn{
+color: black;
+background-color: #FFEB55;
+}
+
+.deleteBtn{
+background-color: #df082bda;
+color: white;
+}
+
+.editBtn:hover{
+  background-color: #ceb91b;
+}
+
+.deleteBtn:hover{
+  background-color: #B8001F;
+}
+
+.taskItemTitle{
+  font-weight: 700;
+  font-size: 18px;
+  color: #001F3F;
+}
+
+.taskItemDesc{
+  font-size: 14px;
+  color: #0B2F9F;
+}
+
+.taskItemStatus, .taskItemDate{
+  color: #0B2F9F;
+}
