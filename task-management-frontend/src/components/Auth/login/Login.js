@@ -27,7 +27,8 @@ const Login = () => {
       });
 
       if (!response.ok) {
-        throw new Error("Invalid credentials");
+        alert("Invalid credentials")
+        // throw new Error("Invalid credentials");
       }
 
       const info = await response.json();
@@ -35,7 +36,7 @@ const Login = () => {
       setUser(info)
       navigate("/tasks");
     } catch (error) {
-      console.error(error);
+      alert("Incorrect credentials")
     }
   }
 

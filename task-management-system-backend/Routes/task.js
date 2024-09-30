@@ -31,6 +31,4 @@ router.get("/:uid", verifyToken, getAllUserTask);
 //GET A Task
 router.get("/byId/:id", verifyToken, getTaskById);
 
-module.exports = (request, response) => {
-  router(request, response);
-};
+export default router;

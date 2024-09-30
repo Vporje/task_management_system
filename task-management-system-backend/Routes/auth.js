@@ -7,6 +7,4 @@ router.post("/register", register);
 router.post("/login", login)
 router.post("/logout", logout)
 
-module.exports = (request, response) => {
-  router(request, response);
-};
+export default router;
